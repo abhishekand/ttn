@@ -1,0 +1,17 @@
+<div class="row mb-2">
+<div data-sly-use.blog="com.mysite.core.models.ListOfBlogs">
+<div data-sly-list="${blog.blogs}">
+        <div class="col-md-4">
+          <div class="card flex-md-row mb-4 shadow-sm h-md-400">
+            <div class="card-body d-flex flex-column align-items-start">
+			<img class="card-img-right flex-auto d-none d-lg-block" data-src="holder.js/320x150?theme=thumb" alt="Card image cap">
+              <strong class="d-inline-block mb-2 text-success">Java</strong>
+              <h3 class="mb-0">
+                <a class="text-dark" href="blog.html#">Post title</a>
+              </h3>
+              <div class="mb-1 text-muted">Jan 23</div>
+              <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+              <a href="blog.html#">Continue reading</a>
+            </div>
+          </div>
+        </div>
